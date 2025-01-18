@@ -1,17 +1,17 @@
 import requests
 import allure
 from urls import Urls
-from helpers import generate_random_string, register_new_courier_and_return_login_password
+from helpers import generate_random_string
 
 
 class TestCourierLogin:
 
     @allure.title('Проверка успешной авторизации курьера при вводе валидных данных')
     @allure.description('Создаем нового курьера с рандомными данными и логинимся c ними в системе. Проверяем код и тело ответа.')
-    def test_courier_login_success(self):
-        login_pass = register_new_courier_and_return_login_password()
-        login = login_pass[0]
-        password = login_pass[1]
+    def test_courier_login_success(self, register_new_courier):
+        response, payload, courier_id = register_new_courier
+        login = payload['login']
+        password = payload['password']
 
         payload = {
             'login': login,
@@ -25,9 +25,9 @@ class TestCourierLogin:
 
     @allure.title('Проверка получения ошибки аутентификации курьера при вводе некорректного пароля.')
     @allure.description('Создаем курьера с валидными данными, регистрируемся с корректным логином и некорректным паролем. Проверяются код и тело ответа.')
-    def test_courier_login_wrong_password(self):
-        login_pass = register_new_courier_and_return_login_password()
-        login = login_pass[0]
+    def test_courier_login_wrong_password(self, register_new_courier):
+        response, payload, courier_id = register_new_courier
+        login = payload['login']
         password = generate_random_string(10)
 
         payload = {
@@ -41,10 +41,10 @@ class TestCourierLogin:
 
     @allure.title('Проверка получения ошибки аутентификации курьера при вводе некорректного логина.')
     @allure.description('Создаем курьера с валидными данными, регистрируемся с некорректным логином и корректным паролем. Проверяются код и тело ответа.')
-    def test_courier_login_wrong_login(self):
-        login_pass = register_new_courier_and_return_login_password()
+    def test_courier_login_wrong_login(self, register_new_courier):
+        response, payload, courier_id = register_new_courier
         login = generate_random_string(10)
-        password = login_pass[1]
+        password = payload['password']
 
         payload = {
             'login': login,
@@ -56,10 +56,10 @@ class TestCourierLogin:
 
     @allure.title('Проверка получения ошибки аутентификации курьера с пустым полем логина')
     @allure.description('В тест передаётся набор данных с пустым логином. Проверяются код и тело ответа.')
-    def test_courier_login_empty_login(self):
-        login_pass = register_new_courier_and_return_login_password()
+    def test_courier_login_empty_login(self, register_new_courier):
+        response, payload, courier_id = register_new_courier
         login = ''
-        password = login_pass[1]
+        password = payload['password']
 
         payload = {
             'login': login,
@@ -73,9 +73,9 @@ class TestCourierLogin:
 
     @allure.title('Проверка получения ошибки аутентификации курьера с пустым полем пароля')
     @allure.description('В тест передаётся набор данных с пустым паролем. Проверяются код и тело ответа.')
-    def test_courier_login_empty_password(self):
-        login_pass = register_new_courier_and_return_login_password()
-        login = login_pass[0]
+    def test_courier_login_empty_password(self, register_new_courier):
+        response, payload, courier_id = register_new_courier
+        login = payload['login']
         password = ''
 
         payload = {
