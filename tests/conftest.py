@@ -17,10 +17,6 @@ def register_new_courier():
         'firstName': first_name
     }
 
-    # Выводим логин и пароль на экран
-    print(f"Courier Login: {login}")
-    print(f"Courier Password: {password}")
-
     response = requests.post(Urls.url_courier, data=payload)
 
     # Логинимся, чтобы получить ID курьера

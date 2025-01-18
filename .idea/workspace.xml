@@ -5,49 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eac768cc-34af-4a9a-a070-7991e29f376a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/022e44a9-ba01-47e1-981b-11511d4fe4d1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/032907dc-7c3b-4e56-81ac-285d908b03d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/0cfc4f85-ccd4-4e1c-b676-1203ca3c6a66-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/16ad00c2-5c47-473c-97b2-bf9393a7edfc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/1f983303-2461-41fd-b766-d1414621032c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/24ba2e86-42b8-41b8-aa29-3152408b0214-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/2e09b09c-ccaf-45ee-a032-de16c90d755c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/2fbdf3bb-0fe3-4639-96e3-ee8d33a1f0a2-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/31c4b856-bb09-41d5-98c3-8ca29d81d6d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/396e07dc-5109-421a-a868-8645b90891cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/3b7e7155-f887-483c-bdcf-b6b174955caa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/3cae5206-65e5-4f43-aae5-3881a9e89b3e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/3fd9859f-ac8b-4ba9-94ef-7cdbd0fde018-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/53d75884-2f7c-4203-be3d-bbcca8c5221f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/5d92e165-9ea9-4c1e-bd59-59219e37b8ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/61236bc5-0d18-4272-ac7d-e84375d05f1d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/622838b8-a11a-4460-8bdd-27e928fedb0d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/6aed15c8-ddf9-467f-af6e-5f18b163aca9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/6b6b75ae-221f-4c50-995b-8090a7fdf965-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/806796b6-bdc6-429a-b4d7-e5d03d66df26-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/9a9a0d99-426c-4aa6-87b5-2fbccb724457-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/9d9f6f11-5244-4ed8-b146-5f151ec7d380-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/a03bd467-b4e0-4761-97bf-f139c73ccee7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/a9dcc912-90b6-4e12-aab4-c78c16be8c63-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/b05355c4-fa2e-4023-99f2-ddaa77efd76f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/b43c843e-d6c6-444d-9130-cd1aa62acc4f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/b93e68fa-89b7-46a6-85ec-111c2449503c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/b94f1cdb-f6fd-426b-866f-b7a15614fbbf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/c6a3380a-22c1-4ee6-9f9d-3e774972d7fa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/d3dca7a0-377c-4a20-910b-dad893918626-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/dc7674ab-9587-4073-b3a9-6b36b67bf6ce-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/de5cb248-3281-42a3-b5b7-1a0206880797-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/e4338c0c-d201-407f-9cad-0397525e7d96-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/eb80d6e4-aa98-4440-b55c-469227d10808-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/ebf4a3b1-a111-48a0-b60e-35fd23b5cdbf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure_results/fb453f98-c16b-43fd-b270-b9bda6bb3a6e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_courier_create_acc.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courier_create_acc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_courier_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courier_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_orders_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_orders_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
